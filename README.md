@@ -1,4 +1,4 @@
-#### The app is a simple  project, 09/10/2023
+#### The app is a simple  project, 15/01/2024
 #### **By Macdonald Muhavi**
 ## Project Description
     Its a simple order table 
@@ -6,17 +6,17 @@
     - Download zip in the code section of github to your desired folder
     - Extract the files
     - Open the folder with vs code.
-    - Then run "json-server --watch database.json" to run our server.
+    - Then run "json-server  database.json" to run our server.
     - The run your index.html by either using the "GO LIVE" extension or by double clicking of the index.html
-    - And your ap#### The app is a simple sheet project, 09/10/2023
+    - And your app#### The app is a simple movie dashboard app, 15/01/2024
 #### **By Macdonald Muhavi**
 ## Project Description
-    Its a simple order table
+    Its a simple movie dashboard
 ## Setup/Installation Requirements
     - Download zip in the code section of github to your desired folder
     - Extract the files
     - Open the folder with vs code.
-    - Then run "json-server --watch database.json" to run our server.
+    - Then run "json-server  database.json" to run our server.
     - The run your index.html by either using the "GO LIVE" extension or by double clicking of the index.html
     - And your application is running.
        
@@ -25,18 +25,19 @@ Deployed Frontend can be accessed here [Blog](https://nextblog-macdonald34..app/
 
 
 ## Known Bugs
-    The application images dissapears in heroku
+    The application videos dassapears in dashboard.
     Otherwise application works perfectly well, no bugs.
 
 ## Technologies used
     - JS
     - HTML and CSS
-    - Fontawesome
+    - Figma
     - BOOTSRAP
 
 ## Support and contact details
     - email :: macdonaldmuhavi98@gmail.com
-    - phone :: +254790737347
+    - phone :: +254727575888
+    - whatsapp :: +254790737347
 
 ### License
 *Licenced under the MIT Licence
