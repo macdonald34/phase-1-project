@@ -3,6 +3,7 @@ const BASE_URL = 'https://api.themoviedb.org/3';
 const API_URL = BASE_URL + '/discover/movie?sort_by=popularity.desc&'+API_KEY;
 const IMG_URL = 'https://image.tmdb.org/t/p/w500';
 const searchURL = BASE_URL + '/search/movie?'+API_KEY;
+//Inserted my db.json on my javascript code so as to fetch data directly
 
 const genres = [
     {
@@ -124,7 +125,7 @@ function setGenre() {
         tagsEl.append(t);
     })
 }
-
+//function for clear button 
 function highlightSelection() {
     const tags = document.querySelectorAll('.tag');
     tags.forEach(tag => {
@@ -196,7 +197,7 @@ function getMovies(url) {
 
 }
 
-
+//function to fetch movies using forEach method
 function showMovies(data) {
     main.innerHTML = '';
 
@@ -232,7 +233,7 @@ function showMovies(data) {
 }
 
 const overlayContent = document.getElementById('overlay-content');
-/* Open when someone clicks on the span element */
+// Open when someone clicks on the span element 
 function openNav(movie) {
   let id = movie.id;
   fetch(BASE_URL + '/movie/'+id+'/videos?'+API_KEY).then(res => res.json()).then(videoData => {
@@ -278,7 +279,7 @@ function openNav(movie) {
   })
 }
 
-/* Close when someone clicks on the "x" symbol inside the overlay */
+// Close when someone clicks on the "x" symbol inside the overlay 
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
