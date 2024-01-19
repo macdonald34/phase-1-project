@@ -46,7 +46,7 @@ Copyright (c) 2023 **Macdonald Muhavi
 plication is running.
        
 ## Live link
-Deployed Frontend can be accessed here [Blog](https://nextblog-macdonald34.app/)   
+Deployed Frontend can be accessed here [Blog](https://moviereccomendation.app/)   
 
 
 ## Known Bugs

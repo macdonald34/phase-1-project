@@ -201,16 +201,16 @@ main{
     text-decoration: none;
     font-size: 36px;
     color: #818181;
-    display: block; /* Display block instead of inline */
-    transition: 0.3s; /* Transition effects on hover (color) */
+    display: block; 
+    transition: 0.3s; 
   }
   
-  /* When you mouse over the navigation links, change their color */
+  
   .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
   }
   
-  /* Position the close button (top right corner) */
+  
   .overlay .closebtn {
     position: absolute;
     top: 20px;
@@ -218,7 +218,7 @@ main{
     font-size: 60px;
   }
   
-  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+  
   @media screen and (max-height: 450px) {
     .overlay a {font-size: 20px}
     .overlay .closebtn {
